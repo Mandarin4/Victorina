@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemiActivity">
+    <TextView
+        android:id="@+id/textTemiTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textTemiTitle"
+        android:textColor="@color/color_btn_text"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textSize="36sp"
+        />
+    <LinearLayout
+        android:layout_below="@+id/textTemiTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="btnTemiAct1"
+            android:padding="10dp"
+            android:text="@string/textTemiBTN1"
+            android:textColor="@color/color_btn_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="btnTemiAct2"
+            android:padding="10dp"
+            android:text="@string/textTemiBTN2"
+            android:textColor="@color/color_btn_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="btnTemiAct3"
+            android:padding="10dp"
+            android:text="@string/textTemiBTN3"
+            android:textColor="@color/color_btn_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="btnTemiAct4"
+            android:padding="10dp"
+            android:text="@string/textTemiBTN4"
+            android:textColor="@color/color_btn_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="btnTemiAct5"
+            android:padding="10dp"
+            android:text="@string/textTemiBTN5"
+            android:textColor="@color/color_btn_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

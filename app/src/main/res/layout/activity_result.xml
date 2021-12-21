@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@color/background2">
+    <LinearLayout
+        android:id="@+id/liner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background2"
+        >
+
+        <TextView
+            android:id="@+id/menuBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnvopr"
+            android:gravity="center"
+            android:onClick="mainActivity"
+            android:padding="10dp"
+            android:text="@string/textResultBTN1"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/restartBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnvopr"
+            android:gravity="center"
+            android:onClick="restartActivity"
+            android:padding="10dp"
+            android:text="@string/textResultBTN2"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+       android:layout_below="@+id/liner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background2"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textResultBTN3"
+            android:background="@color/background2"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/shetBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textResultBTN4"
+            android:background="@color/background2"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
